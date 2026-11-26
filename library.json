@@ -1,0 +1,50 @@
+[
+  {
+    "id": "item-demo-1",
+    "type": "note",
+    "title": "Data Structures: Red-Black Trees & Balancing Invariants",
+    "subject": "Computer Science",
+    "date": "2026-11-20T10:30:00Z",
+    "content": "# Red-Black Trees\n\nSelf-balancing binary search tree where each node has a color bit (red or black).\n\n### 5 Invariant Properties:\n1. Every node is either red or black.\n2. The root is always black.\n3. Every leaf (NIL) is black.\n4. If a node is red, both its children are black (no two consecutive reds).\n5. For each node, all simple paths from the node to descendant leaves contain the same number of black nodes (black height)."
+  },
+  {
+    "id": "item-demo-2",
+    "type": "flashcards",
+    "title": "Operating Systems: Concurrency & Synchronization",
+    "subject": "Computer Science",
+    "date": "2026-11-22T14:15:00Z",
+    "cards": [
+      {
+        "id": 1,
+        "front": "What are the 4 Coffman conditions for deadlock?",
+        "back": "1. Mutual Exclusion\n2. Hold and Wait\n3. No Preemption\n4. Circular Wait"
+      },
+      {
+        "id": 2,
+        "front": "What is a Semaphores' wait() vs signal()?",
+        "back": "wait() (or P) decrements count and blocks if <= 0. signal() (or V) increments count and unblocks waiting threads."
+      }
+    ]
+  },
+  {
+    "id": "item-demo-3",
+    "type": "quiz",
+    "title": "Calculus II: Taylor Series & Convergence Tests",
+    "subject": "Mathematics",
+    "date": "2026-11-24T18:45:00Z",
+    "score": "4/5",
+    "questions": [
+      {
+        "question": "What is the interval of convergence for the geometric series sum(x^n)?",
+        "options": [
+          "(-1, 1)",
+          "[-1, 1]",
+          "(-inf, inf)",
+          "[0, 1)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Geometric series converges if and only if |x| < 1."
+      }
+    ]
+  }
+]
